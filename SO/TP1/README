@@ -1,0 +1,10 @@
+Para compilar
+$ make
+
+Para usar o teclado como entrada principal:
+$ ./process_commander
+
+Para usar um arquivo de texto:
+$ ./process_commander < entrada
+
+Exemplos de entrada estão incluidos, que são os arquivos init e prorama_a 
