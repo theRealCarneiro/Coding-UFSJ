@@ -32,4 +32,3 @@ $ ./fat_shell
 ```sh
 $ man ./fat_shell.1
 ```
-Link para o repositório no github: https://github.com/theRealCarneiro/fat-16
