@@ -1,0 +1,8 @@
+s a 11
+s b 12
+a c 12
+b a 1
+b d 11
+c t 19
+d c 7
+d t 4
