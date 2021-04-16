@@ -1,0 +1,55 @@
+configuration {
+	fixed-num-lines: false;
+	auto-select: false;
+	tokenize: false;
+	hide-scrollbar: true;
+	show-icons: true;
+	/*separator-color:	@fg;*/
+	/*separatorcolor:	@fg;*/
+	kb-accept-entry:	"Return";
+	kb-row-left:		"super+h";
+	kb-row-right:		"super+l";
+	kb-row-up:		"super+k,Up";
+	kb-row-down:		"super+j,Down";
+}
+
+@import "colors"
+* {
+	transparent:		rgba(0,0,0,0);
+	background-color:	@transparent;
+	text-color:		@fg;
+	border:			none;
+	columns:			3;
+	font:			"SF Pro Display 30";
+	lines:			5;
+}
+
+#window {
+	y-offset:			0;
+	x-offset:			0;
+	anchor:			center;
+	width:			1200;
+	padding:			20;
+	/*background-color:	@bg;*/
+	background-color:	#000000bb;
+}
+
+#textbox {
+	font:			"SF Pro Display 30";
+	text-color:		@red;
+	border:			0px 0px 0px 0px;
+	border-color:		@red;
+}
+
+#inputbar {
+	enabled:			false;
+}
+
+#prompt {
+	text-color:		@red;
+	border:			0px 0px 0px 0px;
+}
+
+element selected {
+    text-color:		@red;
+}
